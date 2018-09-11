@@ -1,7 +1,7 @@
 {
     "name": "cristianmgb/php-api-rest",
     "description": "A simple api rest php, using standard psr7 (Diactoros and aura/router)",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
