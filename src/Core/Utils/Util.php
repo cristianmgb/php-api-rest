@@ -59,11 +59,4 @@ class Util
         }
 		
     }
-
-    public static function createD()
-    {
-        mkdir("../../../../../public", 0777);
-    }
-
-
 }

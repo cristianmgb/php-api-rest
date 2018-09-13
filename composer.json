@@ -1,7 +1,7 @@
 {
     "name": "cristianmgb/php-api-rest",
     "description": "A simple api rest php, using standard psr7 (Diactoros and aura/router)",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
@@ -18,8 +18,6 @@
 	"require": {
 		"zendframework/zend-diactoros": "1.8",
 		"aura/router": "3.1"
-	},
-    "post-install-cmd": [
-        "Cristianmgb\\PhpApiRest\\Core\\Utils\\Util::createD"
-    ]
+	}
+      
 }
