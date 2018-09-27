@@ -44,10 +44,12 @@ class ManagerRouter
 	{
 		$matcher = $this->routerContainer->getMatcher();
 		$route = $matcher->match($this->request);
-
+		//echo $this->request->getUri()->getPath() . "<br>";
+		
 		if (!$route) {
     
-			ErrorApi::notFound();		
+			ErrorApi::notFound();	
+
 
 		} else {
 
